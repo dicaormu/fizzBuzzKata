@@ -50,15 +50,15 @@ public class FizzBuzzTest {
     public void should_identify_list() throws Exception {
         List<String> numbers = fb.fizzBuzz(100);
         assertThat(numbers.size(), is(100));
-        assertArrayEquals(new String[]{"13", "14", "fizzbuzz", "16", "17", "fizz"}, numbers.subList(14, 20).toArray());
+        assertArrayEquals(new String[]{"13", "14", "fizzbuzz", "16", "17", "fizz"}, numbers.subList(12, 18).toArray());
     }
 
     @Test
     public void should_identify_complex_list() throws Exception {
         List<String> numbers = fb.fizzBuzzComplex(100);
         assertThat(numbers.size(), is(100));
-        assertArrayEquals(new String[]{"1fizz", "14", "fizzbuzz1buzz", "16", "17", "fizz"}, numbers.subList(14, 20).toArray());
+        assertArrayEquals(new String[]{"1fizz", "14", "fizzbuzz1buzz", "16", "17", "fizz"}, numbers.subList(12, 18).toArray());
         assertTrue(numbers.get(32).equals("fizzfizzfizz"));//the 33
-        assertTrue(numbers.get(34).equals("buzzfizzbuzz"));
+        assertTrue(numbers.get(34).equals("buzzfizzbuzz"));//the 35
     }
 }
