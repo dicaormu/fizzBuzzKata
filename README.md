@@ -35,4 +35,4 @@ The same number if no other requirement is fulfilled
 # complex fizz buzz
 
 the same rules of fizz buzz, but aditionally, if the number contains 3 or 5, return ##fizz## if it's a 3; ##buzz## if it's a 5
-where ## are the numbers in the sides of the 3 or 5
+where ## are the numbers at the side of 3 or 5
