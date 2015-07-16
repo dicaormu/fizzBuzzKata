@@ -9,7 +9,7 @@ git clone  https://github.com/dicaormu/fizzBuzzKata.git
 
 The project is a gradle project, but if you don't have gradle in your system, i've included the gradle wrapper.
 
-To generate the eclipse project, from yout command line type:
+To generate the eclipse project, from your command line type:
 
 ```sh
 gradlew eclipse
@@ -21,16 +21,16 @@ To build the project
 gradlew build
 ```
 
-The project contains some failed tests. The idea is to solve the problem of fizz buzz and make test pass.
+The project contains some failed tests. The idea is to solve the problem of fizz buzz and create the code to make the test pass.
 
 # fizz buzz
 
 For all the number in a list of consecutive numbers greater than zero return:
 
-“fizz” if the number is dividable by 3
-“buzz” if the number is dividable by 5
-“fizzbuzz” if the number is dividable by 15
-the same number if no other requirement is fulfilled
+“fizz” if the number is dividable by 3.
+“buzz” if the number is dividable by 5.
+“fizzbuzz” if the number is dividable by 15.
+The same number if no other requirement is fulfilled
 
 # complex fizz buzz
 
