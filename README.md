@@ -1,5 +1,5 @@
 # fizzBuzzKata
-Unit tests for the fizz buzz kata
+Unit tests for the fizz buzz kata, an introduction to TDD
 
 To install, from your command line, type:
 
