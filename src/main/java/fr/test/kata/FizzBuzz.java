@@ -26,7 +26,7 @@ public class FizzBuzz {
 
     /**
      * @return a list with the numbers from 1 to max. If the number is divisible by 3 fizz, buzz if is divisible by 5,
-     *  fizz buzz if both and if there are a 5 or 3 buzz or fizz and the number, ex: 13: 1fizz 33 fizzfizzfizz
+     *  fizz buzz if both and if there are a 5 or 3 buzz or fizz and the number, ex: 13: 1fizz (13 = 1 3, 1=1, 3=fizz).  33: fizzfizzfizz
      *  (33 is divisible by 3= fizz, 3=fizz, 3=fizz ). 31: fizz1
      * */
     public List<String> fizzBuzzComplex(int max){
